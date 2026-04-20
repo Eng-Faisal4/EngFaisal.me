@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faisal Albarak - CV</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; color: #333; }
+        header { border-bottom: 2px solid #007bff; padding-bottom: 20px; }
+        h1 { color: #007bff; }
+        .skills-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; }
+        .skills-list li { background: #e9ecef; padding: 5px 15px; border-radius: 15px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Faisal Albarak</h1>
+        <p>Software Engineering Student | University of Ha'il</p>
+        <p>Email: your-email@example.com</p>
+    </header>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>Bachelor of Software Engineering</strong><br>
+        University of Ha'il (Expected Graduation: 2026/2027)</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+            <li>System Analysis</li>
+            <li>UX Design</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Software Process Simulation:</strong> Developed using AnyLogic to simulate SDLC phases.</li>
+            <li><strong>XML Data Fetcher:</strong> Web project to dynamically display data using JS and DOMParser.</li>
+        </ul>
+    </section>
+</body>
+</html>
